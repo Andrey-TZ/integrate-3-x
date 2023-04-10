@@ -46,6 +46,7 @@ def integrate(x, y, n, osn):
 
 if __name__ == "__main__":
 
+    plt.figure(figsize=(40 / 2.54, 30 / 2.54))
     while True:
         plt.yticks([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
         print('Для выхода из программы нажмите "0"')
